@@ -24,7 +24,6 @@ def main():
       with open('ping.csv', 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(['Time', 'Google Public DNS', 'Cloudflare Public DNS'])
-        write_csv(result)
     time.sleep(1)
 
 if __name__ == '__main__':
